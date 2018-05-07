@@ -9,4 +9,4 @@ The code also handles the following two failure cases, along with the normal ope
 
 2) Server failure: In case the network fails due to server shut down, servers can resume from where the failure had happened, by storing the state of processes (logs, dictionary, and 2DTT) on disk and reading from it when the process starts back. 
 
-**IMPORTANT: File 'initial_state_RUN_FIRST.py' must be run first to set servers initial state.**
+**IMPORTANT: File 'initial_state_RUN_FIRST.py' must be run first to set servers initial state, and be located in the same directory as the serverX.py files.**
